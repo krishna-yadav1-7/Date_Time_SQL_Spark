@@ -1,0 +1,9 @@
+Problem 1: Employee Experience Category:
+
+Display EmpID, EmpName, JoiningDate and a new column ExperienceLevel based on:
+
+If experience > 7 years → 'Senior'
+If experience between 4 to 7 years → 'Mid-Level'
+Else → 'Junior'
+
+(Hint: Use YEAR(CURRENT_DATE) - YEAR(JoiningDate) in SQL to calculate experience)
